@@ -115,7 +115,7 @@ class FigletFont(object):
     @classmethod
     def getFonts(cls):
         return [font.rsplit('.', 2)[0] for font
-                in listdir(__fonts__)
+                in os.listdir(__fonts__)
                 if cls.isValidFont(font)]
 
     @classmethod
