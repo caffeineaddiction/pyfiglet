@@ -36,7 +36,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
 
 __fonts__ = os.path.dirname(os.path.realpath(__file__)) + "/fonts"
 
-DEFAULT_FONT = 'standard'
+DEFAULT_FONT = 'roman'
 
 
 def figlet_format(text, font=DEFAULT_FONT, **kwargs):
